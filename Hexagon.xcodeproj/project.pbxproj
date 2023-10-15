@@ -12,6 +12,7 @@
 		7057A1FB2ADBA03700298CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7057A1FA2ADBA03700298CBF /* Assets.xcassets */; };
 		7057A1FE2ADBA03700298CBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7057A1FD2ADBA03700298CBF /* Preview Assets.xcassets */; };
 		7057A2062ADBA06600298CBF /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057A2052ADBA06600298CBF /* HexagonParameters.swift */; };
+		7057A2082ADBA19100298CBF /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057A2072ADBA19100298CBF /* BadgeBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7057A1FA2ADBA03700298CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7057A1FD2ADBA03700298CBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7057A2052ADBA06600298CBF /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		7057A2072ADBA19100298CBF /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				7057A1F82ADBA03500298CBF /* ContentView.swift */,
 				7057A2052ADBA06600298CBF /* HexagonParameters.swift */,
+				7057A2072ADBA19100298CBF /* BadgeBackground.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				7057A2062ADBA06600298CBF /* HexagonParameters.swift in Sources */,
 				7057A1F92ADBA03500298CBF /* ContentView.swift in Sources */,
 				7057A1F72ADBA03500298CBF /* HexagonApp.swift in Sources */,
+				7057A2082ADBA19100298CBF /* BadgeBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
