@@ -11,6 +11,7 @@
 		7057A1F92ADBA03500298CBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057A1F82ADBA03500298CBF /* ContentView.swift */; };
 		7057A1FB2ADBA03700298CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7057A1FA2ADBA03700298CBF /* Assets.xcassets */; };
 		7057A1FE2ADBA03700298CBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7057A1FD2ADBA03700298CBF /* Preview Assets.xcassets */; };
+		7057A2062ADBA06600298CBF /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057A2052ADBA06600298CBF /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7057A1F82ADBA03500298CBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7057A1FA2ADBA03700298CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7057A1FD2ADBA03700298CBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7057A2052ADBA06600298CBF /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,8 @@
 		7057A1F52ADBA03500298CBF /* Hexagon */ = {
 			isa = PBXGroup;
 			children = (
+				7057A2042ADBA04200298CBF /* views */,
 				7057A1F62ADBA03500298CBF /* HexagonApp.swift */,
-				7057A1F82ADBA03500298CBF /* ContentView.swift */,
 				7057A1FA2ADBA03700298CBF /* Assets.xcassets */,
 				7057A1FC2ADBA03700298CBF /* Preview Content */,
 			);
@@ -65,6 +67,15 @@
 				7057A1FD2ADBA03700298CBF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7057A2042ADBA04200298CBF /* views */ = {
+			isa = PBXGroup;
+			children = (
+				7057A1F82ADBA03500298CBF /* ContentView.swift */,
+				7057A2052ADBA06600298CBF /* HexagonParameters.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7057A2062ADBA06600298CBF /* HexagonParameters.swift in Sources */,
 				7057A1F92ADBA03500298CBF /* ContentView.swift in Sources */,
 				7057A1F72ADBA03500298CBF /* HexagonApp.swift in Sources */,
 			);
