@@ -15,6 +15,7 @@
 		7057A2082ADBA19100298CBF /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057A2072ADBA19100298CBF /* BadgeBackground.swift */; };
 		7057A20A2ADBB0D600298CBF /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057A2092ADBB0D600298CBF /* BadgeSymbol.swift */; };
 		7057A20C2ADBB21A00298CBF /* RotatedBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057A20B2ADBB21A00298CBF /* RotatedBadge.swift */; };
+		7057A20E2ADBB32A00298CBF /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057A20D2ADBB32900298CBF /* Badge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7057A2072ADBA19100298CBF /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		7057A2092ADBB0D600298CBF /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		7057A20B2ADBB21A00298CBF /* RotatedBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadge.swift; sourceTree = "<group>"; };
+		7057A20D2ADBB32900298CBF /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				7057A2072ADBA19100298CBF /* BadgeBackground.swift */,
 				7057A2092ADBB0D600298CBF /* BadgeSymbol.swift */,
 				7057A20B2ADBB21A00298CBF /* RotatedBadge.swift */,
+				7057A20D2ADBB32900298CBF /* Badge.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7057A20E2ADBB32A00298CBF /* Badge.swift in Sources */,
 				7057A2062ADBA06600298CBF /* HexagonParameters.swift in Sources */,
 				7057A1F92ADBA03500298CBF /* ContentView.swift in Sources */,
 				7057A1F72ADBA03500298CBF /* HexagonApp.swift in Sources */,
